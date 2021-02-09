@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<config>
+
+    <transaction id="sumar-numeros">
+        <model id="calculadora">Modelo.Calculadora</model>
+	<controller>Controlador.CtrlSumar</controller>
+	<method>sumar</method>
+    </transaction>     
+        
+</config>

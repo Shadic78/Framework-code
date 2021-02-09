@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<config>
+    
+	<logs>
+		<size>12</size>
+		<prefix>Calculadora</prefix>
+	</logs>
+
+</config>

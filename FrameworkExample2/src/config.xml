@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<config>
+    
+    <transaction id="rellenar-combo">
+        <model id="modelo-votos">Modelo.ModeloDatos</model>
+        <controller>Controlador.CtrlVotar</controller>
+        <method>iniciarFormulario</method>
+    </transaction>         
+
+    <transaction id="votar">
+        <model id="modelo-votos">Modelo.ModeloDatos</model>
+		<controller>Controlador.CtrlVotar</controller>
+		<method>emitirVoto</method>
+    </transaction> 
+        
+    <transaction id="reiniciar-votos">
+        <model id="modelo-votos">Modelo.ModeloDatos</model>
+		<controller>Controlador.CtrlVotar</controller>
+		<method>reiniciarVotos</method>
+    </transaction>     
+    
+    <transaction id="agregar-candidato">
+        <model id="modelo-votos">Modelo.ModeloDatos</model>
+		<controller>Controlador.CtrlVotar</controller>
+		<method>agregarCandidato</method>
+    </transaction>
+    
+    <transaction id="eliminar-candidato">
+        <model id="modelo-votos">Modelo.ModeloDatos</model>
+		<controller>Controlador.CtrlVotar</controller>
+		<method>eliminarCandidato</method>
+    </transaction>                                                                                          
+
+</config>

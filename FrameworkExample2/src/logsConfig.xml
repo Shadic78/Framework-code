@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<config>
+    
+	<logs>
+		<size>10</size>
+		<prefix>Votos</prefix>
+	</logs>
+
+</config>
